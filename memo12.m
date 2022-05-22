@@ -44,7 +44,6 @@ L0Dx2 = ((3*(x^2))-(4*x)+1.1875)/(-0.1875);
 L1Dx2 = ((3*(x^2))-(3.5*x)+0.75)/0.09375;
 L2Dx2 = ((3*(x^2))-(2.5*x)+0.25)/(-0.09375);
 L3Dx2 = ((3*(x^2))-(2*x)+0.1875)/0.1875;
-Memorandum #12 BioE 310 - Biological Systems Analysis
 x=x3;
 L0Dx3 = ((3*(x^2))-(4*x)+1.1875)/(-0.1875);
 L1Dx3 = ((3*(x^2))-(3.5*x)+0.75)/0.09375;
@@ -90,7 +89,6 @@ b = [0;0;0;1];
 conc = A\b;
 %Problem 2
 int = [0;0.25;0.75;1];
-Memorandum #12 BioE 310 - Biological Systems Analysis
 scatter(int,conc)
 hold on
 plot(int,conc)
